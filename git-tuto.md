@@ -3,8 +3,10 @@
 ![Git-Archetecture](Git-Architecture.png)
 
 ## Git Basic Configuration (done only one time after installation)
+```bat
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+```
 
 ## Initialize the current folder as a local repository
 git init
@@ -30,7 +32,7 @@ git commit -m "Commit Message"
 git log
 
 ## Push the content of the local repository to the remote one 
-git push origin <remote_branch_name>
+git push origin [<remote_branch_name>]
 
 ## Pull the content from the remote repository to the local one
 git pull
