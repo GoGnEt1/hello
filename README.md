@@ -1,2 +1,1 @@
-# My project
-This is my project!!!
+The redame file is empty.
